@@ -11,16 +11,14 @@ int main() {
     cin>>a>>b;
 
     if(a.length()<b.length()){
-        cout<<b<<" ";
+        cout<<b<<" "<<b.length();
     }
-    else if(a.length()==b.length()){
-        cout<<"same";
+    else if(a.length()>b.length()){
+        cout<<a<<" "<<a.length();
     }
     else{
-        cout<<b<<" ";
+        cout<<"same";
     }
-
-    cout<<max(a.length(),b.length());
     
     return 0;
 }
