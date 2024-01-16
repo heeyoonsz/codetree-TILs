@@ -13,6 +13,9 @@ int main() {
     if(a.length()<b.length()){
         cout<<b<<" ";
     }
+    else if(a.length()==b.length()){
+        cout<<"same";
+    }
     else{
         cout<<b<<" ";
     }
