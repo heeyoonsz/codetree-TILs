@@ -11,8 +11,8 @@ int main() {
         cin>>arr[i];
     }
 
-    for(int i=3;i>=0;i--){
-        cout<<arr[i]<<endl;
+   for (int i = 0 ; i < 4 ; i ++){
+        cout << arr[3-i] << endl ;
     }
 
     return 0;
