@@ -7,11 +7,11 @@ int main() {
     char alpha;
 
     cin >> alpha;
-    char x;
-    
+    // char x;
+
   //  cout << (char)((int)alpha+1);
 
-    if (x == 'z')
+    if (alpha == 'z')
         cout << "a";
     else
         cout << (char)(alpha+1);
