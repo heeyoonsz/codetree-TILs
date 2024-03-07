@@ -7,9 +7,10 @@ int main() {
     char a;
     cin >> a;
 
-    if(a=='z'){
-        cout << 'a';
+    if(a=='a'){
+        cout << 'z';
     }
+    
     else
         cout << (char)(a-1);
     
